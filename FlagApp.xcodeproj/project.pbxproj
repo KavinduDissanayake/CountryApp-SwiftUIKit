@@ -12,6 +12,10 @@
 		CF28CBB929575BB30089B452 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28CBB829575BB30089B452 /* Flags.swift */; };
 		CF28CBBB29575BC00089B452 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28CBBA29575BC00089B452 /* Languages.swift */; };
 		CF28CBBD29575BCB0089B452 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28CBBC29575BCB0089B452 /* Name.swift */; };
+		CF28CBC1295765310089B452 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF28CBC0295765310089B452 /* Poppins-Black.ttf */; };
+		CF28CBC32957653D0089B452 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF28CBC22957653D0089B452 /* Poppins-Bold.ttf */; };
+		CF28CBC5295765480089B452 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF28CBC4295765480089B452 /* Poppins-Regular.ttf */; };
+		CF28CBC7295765550089B452 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF28CBC6295765550089B452 /* Poppins-Medium.ttf */; };
 		CF77EAA22955EFE8003B435C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77EAA12955EFE8003B435C /* AppDelegate.swift */; };
 		CF77EAA62955EFE8003B435C /* CountryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77EAA52955EFE8003B435C /* CountryListVC.swift */; };
 		CF77EAA92955EFE8003B435C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77EAA72955EFE8003B435C /* Main.storyboard */; };
@@ -43,6 +47,10 @@
 		CF28CBB829575BB30089B452 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
 		CF28CBBA29575BC00089B452 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
 		CF28CBBC29575BCB0089B452 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		CF28CBC0295765310089B452 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		CF28CBC22957653D0089B452 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		CF28CBC4295765480089B452 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		CF28CBC6295765550089B452 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		CF77EA9E2955EFE8003B435C /* FlagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF77EAA12955EFE8003B435C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF77EAA52955EFE8003B435C /* CountryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
@@ -95,6 +103,17 @@
 				1106D8A4E80791F798435327 /* Pods-FlagApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF28CBBE2957651A0089B452 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CF28CBC22957653D0089B452 /* Poppins-Bold.ttf */,
+				CF28CBC6295765550089B452 /* Poppins-Medium.ttf */,
+				CF28CBC4295765480089B452 /* Poppins-Regular.ttf */,
+				CF28CBC0295765310089B452 /* Poppins-Black.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		CF77EA952955EFE8003B435C = {
@@ -168,6 +187,7 @@
 		CF9EA1552955FBF90068D9A1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CF28CBBE2957651A0089B452 /* Fonts */,
 				CF9EA1562955FC0D0068D9A1 /* Extentions.swift */,
 				CFE5567929566E1E009D5261 /* Constant.swift */,
 				CFE5568029567DDE009D5261 /* Handlers.swift */,
@@ -289,9 +309,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF77EAAE2955EFEA003B435C /* LaunchScreen.storyboard in Resources */,
+				CF28CBC32957653D0089B452 /* Poppins-Bold.ttf in Resources */,
+				CF28CBC5295765480089B452 /* Poppins-Regular.ttf in Resources */,
 				CF77EAB92955F0ED003B435C /* FlagCardTVC.xib in Resources */,
 				CF77EAAB2955EFEA003B435C /* Assets.xcassets in Resources */,
+				CF28CBC7295765550089B452 /* Poppins-Medium.ttf in Resources */,
 				CF77EAA92955EFE8003B435C /* Main.storyboard in Resources */,
+				CF28CBC1295765310089B452 /* Poppins-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +538,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlagApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -542,6 +567,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlagApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
