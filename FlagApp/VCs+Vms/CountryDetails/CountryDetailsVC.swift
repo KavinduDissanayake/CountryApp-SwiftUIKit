@@ -83,7 +83,8 @@ extension CountryDetailsVC {
         self.commonNameLbl.text = model.name?.common ?? "N/A"
         self.officalNameLbl.text = model.name?.official ?? "N/A"
         self.capitalCityLbl.text = model.capital?.first ?? "N/A"
-        // self.currencyLbl.text = model.currencies?.name ?? "N/A"
+       // self.currencyLbl.text =
+        self.currencyLbl.text = model.currencies?.first?.value.name
         self.languageLbl.text = model.languages?.eng ?? "N/A"
         self.populationLbl.text = "\(model.population ?? 0)"
         

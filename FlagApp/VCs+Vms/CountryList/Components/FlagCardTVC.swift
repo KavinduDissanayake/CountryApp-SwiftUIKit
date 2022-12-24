@@ -21,6 +21,7 @@ class FlagCardTVC: UITableViewCell {
 
     func configUI(model:CountryListResponseElement){
         self.countryImage.sd_setImage(with: URL(string:model.flags?.png ?? ""), placeholderImage: UIImage(named: "placeholder_image"))
+        self.countryImage.layer.cornerRadius =  6
         self.commonNameLbl.text = model.name?.common ?? "N/A"
         self.officialNameLbl.text = model.name?.official ?? "N/A"
     }
