@@ -29,6 +29,7 @@ class CountryDetailsVC: BaseVC {
     @IBOutlet weak var currencyLbl: UILabel!
     @IBOutlet weak var languageLbl: UILabel!
     @IBOutlet weak var populationLbl: UILabel!
+    @IBOutlet weak var cardBg: UIView!
     
     
     
@@ -36,6 +37,7 @@ class CountryDetailsVC: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        addtionalUIConfig()
         getCountryData()
         subscribeModel()
     }
@@ -68,9 +70,14 @@ extension CountryDetailsVC {
 
 //MARK: setup UI
 extension CountryDetailsVC {
+
+    func addtionalUIConfig(){
+        cardBg.layer.cornerRadius =  8
+        countryImage.layer.cornerRadius = 8
+        defaultBackBtn()
+    }
     
     func subscribeModel(){
-        
         viewModel.countrieModel
             .asObservable()
             .subscribe(onNext: { [unowned self] model in
@@ -83,7 +90,6 @@ extension CountryDetailsVC {
         self.commonNameLbl.text = model.name?.common ?? "N/A"
         self.officalNameLbl.text = model.name?.official ?? "N/A"
         self.capitalCityLbl.text = model.capital?.first ?? "N/A"
-       // self.currencyLbl.text =
         self.currencyLbl.text = model.currencies?.first?.value.name
         self.languageLbl.text = model.languages?.eng ?? "N/A"
         self.populationLbl.text = "\(model.population ?? 0)"

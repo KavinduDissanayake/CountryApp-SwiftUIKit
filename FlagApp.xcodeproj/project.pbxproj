@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CBE2AFC12AEDD05E56653859 /* Pods_FlagApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD69070600CD35894F386346 /* Pods_FlagApp.framework */; };
+		CF28CBB629575B9C0089B452 /* Currencie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28CBB529575B9C0089B452 /* Currencie.swift */; };
+		CF28CBB929575BB30089B452 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28CBB829575BB30089B452 /* Flags.swift */; };
+		CF28CBBB29575BC00089B452 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28CBBA29575BC00089B452 /* Languages.swift */; };
+		CF28CBBD29575BCB0089B452 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28CBBC29575BCB0089B452 /* Name.swift */; };
 		CF77EAA22955EFE8003B435C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77EAA12955EFE8003B435C /* AppDelegate.swift */; };
 		CF77EAA62955EFE8003B435C /* CountryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77EAA52955EFE8003B435C /* CountryListVC.swift */; };
 		CF77EAA92955EFE8003B435C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77EAA72955EFE8003B435C /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 		1106D8A4E80791F798435327 /* Pods-FlagApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagApp.release.xcconfig"; path = "Target Support Files/Pods-FlagApp/Pods-FlagApp.release.xcconfig"; sourceTree = "<group>"; };
 		95FFEAC3B5C33C5DB9EEE709 /* Pods-FlagApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagApp.debug.xcconfig"; path = "Target Support Files/Pods-FlagApp/Pods-FlagApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CD69070600CD35894F386346 /* Pods_FlagApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlagApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF28CBB529575B9C0089B452 /* Currencie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencie.swift; sourceTree = "<group>"; };
+		CF28CBB829575BB30089B452 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		CF28CBBA29575BC00089B452 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		CF28CBBC29575BCB0089B452 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
 		CF77EA9E2955EFE8003B435C /* FlagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF77EAA12955EFE8003B435C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF77EAA52955EFE8003B435C /* CountryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
@@ -110,9 +118,9 @@
 		CF77EAA02955EFE8003B435C /* FlagApp */ = {
 			isa = PBXGroup;
 			children = (
+				CF9EA1542955FA8C0068D9A1 /* App */,
 				CFE5568429567FCF009D5261 /* Base */,
 				CFE5567829566DD2009D5261 /* Repository */,
-				CF9EA1542955FA8C0068D9A1 /* App */,
 				CF9EA1522955FA670068D9A1 /* Storyboards */,
 				CF9EA1532955FA750068D9A1 /* VCs+Vms */,
 				CF9EA1552955FBF90068D9A1 /* Utilities */,
@@ -203,6 +211,10 @@
 			isa = PBXGroup;
 			children = (
 				CFE5567E295671E4009D5261 /* CountryListResponseElement.swift */,
+				CF28CBB529575B9C0089B452 /* Currencie.swift */,
+				CF28CBB829575BB30089B452 /* Flags.swift */,
+				CF28CBBA29575BC00089B452 /* Languages.swift */,
+				CF28CBBC29575BCB0089B452 /* Name.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -334,13 +346,17 @@
 			files = (
 				CFE5567A29566E1E009D5261 /* Constant.swift in Sources */,
 				CFE5568329567FA6009D5261 /* LoadingIndicatorDelegate.swift in Sources */,
+				CF28CBB629575B9C0089B452 /* Currencie.swift in Sources */,
 				CFE5567F295671E4009D5261 /* CountryListResponseElement.swift in Sources */,
 				CFE5568C2956850C009D5261 /* NetworkRechability.swift in Sources */,
 				CFE5568E295688A3009D5261 /* CountryDetailsVC.swift in Sources */,
+				CF28CBB929575BB30089B452 /* Flags.swift in Sources */,
 				CFE5568A2956820C009D5261 /* AlertProvider.swift in Sources */,
 				CF77EAA62955EFE8003B435C /* CountryListVC.swift in Sources */,
+				CF28CBBB29575BC00089B452 /* Languages.swift in Sources */,
 				CFE5567C29566E65009D5261 /* AFWrapper.swift in Sources */,
 				CF9EA159295602920068D9A1 /* CountryListVM.swift in Sources */,
+				CF28CBBD29575BCB0089B452 /* Name.swift in Sources */,
 				CF77EAB82955F0ED003B435C /* FlagCardTVC.swift in Sources */,
 				CFE556882956801E009D5261 /* BaseVM.swift in Sources */,
 				CFE556942956A76D009D5261 /* ApplicationServiceProvider.swift in Sources */,

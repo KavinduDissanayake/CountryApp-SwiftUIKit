@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -56,7 +55,6 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmh-Vg-c4q">
                                                 <rect key="frame" x="0.0" y="0.0" width="353" height="50"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="WKo-XO-ELO"/>
                                                 </constraints>
@@ -64,7 +62,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wpP-rC-vl4">
                                                 <rect key="frame" x="0.0" y="70" width="353" height="100"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_image" translatesAutoresizingMaskIntoConstraints="NO" id="yiI-vZ-mMR">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_image" translatesAutoresizingMaskIntoConstraints="NO" id="yiI-vZ-mMR">
                                                         <rect key="frame" x="126.66666666666666" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="eGs-Jy-JwV"/>
@@ -72,7 +70,6 @@
                                                         </constraints>
                                                     </imageView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="yiI-vZ-mMR" firstAttribute="centerY" secondItem="wpP-rC-vl4" secondAttribute="centerY" id="1nb-cF-dbP"/>
                                                     <constraint firstAttribute="height" constant="100" id="nay-nh-u1U"/>
@@ -98,10 +95,8 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemRedColor"/>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="ycN-aS-mfA" firstAttribute="top" secondItem="uW3-0L-JcU" secondAttribute="top" id="0u5-n5-G0G"/>
                                                     <constraint firstItem="ycN-aS-mfA" firstAttribute="centerY" secondItem="uW3-0L-JcU" secondAttribute="centerY" id="8Cq-9k-dft"/>
@@ -134,7 +129,6 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
-                                                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zgb-4T-K8m">
                                                                 <rect key="frame" x="0.0" y="40.333333333333314" width="333" height="20.333333333333329"/>
@@ -152,7 +146,6 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
-                                                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Gv-H2-zNs">
                                                                 <rect key="frame" x="0.0" y="80.666666666666686" width="333" height="20.333333333333329"/>
@@ -170,7 +163,6 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
-                                                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                                                 <constraints>
                                                                     <constraint firstItem="YOl-v1-cLf" firstAttribute="leading" secondItem="5Gv-H2-zNs" secondAttribute="leading" id="TjJ-6B-VII"/>
                                                                 </constraints>
@@ -191,13 +183,11 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
-                                                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                                                 <constraints>
                                                                     <constraint firstItem="gzq-bj-3cf" firstAttribute="leading" secondItem="VwB-A8-pde" secondAttribute="leading" id="bHz-uE-MS9"/>
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="trailing" secondItem="37g-rU-TJL" secondAttribute="trailing" id="D1D-xE-3xB"/>
                                                             <constraint firstItem="Zgb-4T-K8m" firstAttribute="leading" secondItem="ZK5-7p-c1q" secondAttribute="leading" id="No2-qh-Gah"/>
@@ -208,7 +198,6 @@
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="ZK5-7p-c1q" firstAttribute="top" secondItem="cai-JZ-Uyf" secondAttribute="top" constant="10" id="BKo-ZJ-58e"/>
                                                     <constraint firstItem="ZK5-7p-c1q" firstAttribute="leading" secondItem="cai-JZ-Uyf" secondAttribute="leading" constant="10" id="Ldn-3B-fYK"/>
@@ -217,10 +206,9 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" name="AccentColor"/>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="rA0-jL-pJd" secondAttribute="bottom" id="FA5-41-FX0"/>
                                     <constraint firstItem="rA0-jL-pJd" firstAttribute="top" secondItem="1ud-oe-OBw" secondAttribute="top" id="bYf-T7-LVT"/>
@@ -230,7 +218,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Ak-sw-kpf"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Ak-sw-kpf" firstAttribute="trailing" secondItem="1ud-oe-OBw" secondAttribute="trailing" constant="20" id="EC5-1x-hHx"/>
                             <constraint firstItem="6Ak-sw-kpf" firstAttribute="bottom" secondItem="1ud-oe-OBw" secondAttribute="bottom" constant="20" id="KmZ-Hq-TDa"/>
@@ -240,6 +228,7 @@
                     </view>
                     <connections>
                         <outlet property="capitalCityLbl" destination="oIz-Ox-uvN" id="sq6-2w-ZcR"/>
+                        <outlet property="cardBg" destination="1ud-oe-OBw" id="bj0-b2-yMs"/>
                         <outlet property="commonNameLbl" destination="5Nn-B2-xlm" id="kQn-yc-pu3"/>
                         <outlet property="countryImage" destination="yiI-vZ-mMR" id="cgM-jv-OfC"/>
                         <outlet property="currencyLbl" destination="oZI-26-HPg" id="vrW-HD-f8O"/>
@@ -273,23 +262,11 @@
     </scenes>
     <resources>
         <image name="placeholder_image" width="375" height="375"/>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
